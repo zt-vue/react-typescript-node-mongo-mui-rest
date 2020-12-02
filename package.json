@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "client": "cd \"client\" & yarn start",
+    "server": "cd \"server\" & yarn dev",
+    "server:dev": "cd \"server\" & yarn dev",
+    "build": "yarn build:client & yarn build:server",
+    "build:client": "cd \"client\" & yarn build",
+    "build:server": "cd \"server\" & yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
+    "lerna": "^3.20.2"
+  }
+}

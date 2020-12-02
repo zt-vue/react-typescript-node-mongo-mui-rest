@@ -1,0 +1,25 @@
+import React from 'react';
+
+function CoreSplashScreen() {
+  return (
+    <div id="core-splash-screen">
+      <div className="flex center">
+        <div className="spinner-wrapper">
+          <div className="spinner">
+            <div className="inner">
+              <div className="gap" />
+              <div className="left">
+                <div className="half-circle" />
+              </div>
+              <div className="right">
+                <div className="half-circle" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default React.memo(CoreSplashScreen);
